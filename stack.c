@@ -18,7 +18,7 @@ int main(){
 		}
 		else{
 			TOP++;
-			printf("Enter Element: ");
+			printf("\nEnter Element: ");
 			scanf("%d",&stack[TOP]);
 		}
 
@@ -26,11 +26,11 @@ int main(){
 		
 		case 2:
 		if(TOP<=-1){
-			printf("Underflow!!");
+			printf("\nUnderflow!!");
 			exit(0);
 		}
 		else{
-			stack[TOP]--;
+			printf("\nElement Popped successfully! ");
 			TOP=TOP-1;
 		}
 		    break;
